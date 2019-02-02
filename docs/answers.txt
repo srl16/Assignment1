@@ -1,0 +1,59 @@
+(a)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 394 bytes | 197.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/srl16/Assignment1.git
+   3d373c9..1d2bc9f  master -> master
+
+(b)
+4 commits have been done to the repository in total.
+I used the 'git log' command to find this info.
+
+(c)
+I used 'git log --follow .gitignore' to find that the file was last modified:
+Thu Jan 10 16:45:38 2019
+
+(d)
+Branches are used in a Git repository in order to develop new features
+alongside one another, without having to modify the master product.
+They also create easy organization and isolate development activities,
+which can also make error checking easier.
+
+(e)
+'git status' shows the modified files in the working directory
+that are staged for the next commit, while 'git log' shows all past
+commits for the current branch.
+
+(f)
+Weapon.h information can be pulled up using the same command from (c):
+git log --follow Weapon.h
+
+(g)
+I used the command:
+git log --grep='file'
+To search for commit messages that contain the string "file"
+
+(h)
+(I) Inheritance is the mechanism by which an object acquires some (or all)
+of the properties of another object through hierarchal classification.
+(II) Polymorphism is the means by which one can process an object different
+ways based on the object's data type.
+(III) Encapsulation is binding the data with the code that manipulates it,
+keeping both the data and the code safe from external interference.
+
+(i)
+The Dictator and Lieutenants Workflow has one central repository that everyone
+pulls from, but only the Dictator can push to it. The Integration Manager
+Workflow has each developer puch to his/her own public repository, after which
+any integration conflict is dealt with by the Manager.
+
+(j)
+With 100 developers, each developer is going to spend most of their time
+resolving conflicts caused by the other 99 developers pulling and pushing from
+and to the same repository. If a dictator is put in place, no pushes will be
+made without going through the Lieutenants and the  Dictator, so the developers
+can focus on development and not resolving conflicts.
