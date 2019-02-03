@@ -5,7 +5,7 @@
  * Created on September 27, 2017, 4:15 PM
  */
 
-#include "SimpleHammer.hpp"
+#include "SimpleHammer.h"
 
 double SimpleHammer::hit(double armor) {
     double damage;
