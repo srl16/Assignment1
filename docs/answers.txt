@@ -57,3 +57,8 @@ resolving conflicts caused by the other 99 developers pulling and pushing from
 and to the same repository. If a dictator is put in place, no pushes will be
 made without going through the Lieutenants and the  Dictator, so the developers
 can focus on development and not resolving conflicts.
+
+5.
+The RoleGame prototype uses polymorphism because the different weapons are
+created with different hitpoint values and qualities depending on their given
+names. Encapsulation is also used in the names of each of the different weapons.
